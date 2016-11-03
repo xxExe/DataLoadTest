@@ -1,0 +1,96 @@
+*{
+    outline:none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #ecf0f2;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    color:#44525E;
+
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar:horizontal {
+    -webkit-appearance: none;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(44,52,94,.3);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.3);
+}
+
+#MainHeader{
+    background-color: #0067b3;
+    height:70px;
+    width:100%;
+}
+
+#LeftMenu{
+    /*70 px - высота header-a см #MainHeader*/
+    height:calc(100%  -  70px);
+    width:271px;
+    float: left;
+}
+
+#MenuButtonsPanel{
+    /*height:100%;*/
+    height:calc(100%  -  70px);
+    width:300px;
+    border-right: 1px solid #D4D6D6;
+    float:left;
+}
+
+#MenuHideBtnPanel{
+  /*  height:100%;*/
+    height:calc(100%  -  70px);
+    width:20px;
+    float:left;
+    margin-right: 20px;
+}
+
+#MenuHideBtn{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#Content{
+    float: left;
+}
+
+#CurrentNamePanel{
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: left;
+    border-bottom:1px solid black;
+}
+
+.MenuTab{
+     font-size: 16px;
+     height: 33px;
+     text-align: center;
+     border-bottom: 1px solid #D4D6D6;
+     cursor: pointer;
+     padding-top: 10px;
+ }
+.MenuTabActive{
+    background-color: white;
+    border-left: 7px solid #0067b3;
+}
+
+#Load190{
+    border-top: 1px solid #D4D6D6;
+    margin-top:100px;
+}
