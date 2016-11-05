@@ -27,6 +27,29 @@
         <div id = "CurrentNamePanel">
             ЗАГРУЗКА ДАННЫХ
         </div>
+        <div id="InfoPanel" class = "InfoBlock">
+            <div>
+                1. Заполните информацию
+            </div>
+            <div class="InputPanel">
+                <div id ="InputTextPost" >Звание</div>
+                <input type="text" size="40">
+            </div>
+            <div class="InputPanel">
+                <div id ="InputTextFio">ФИО</div>
+                <input type="text" size="40">
+            </div>
+            <div class="InputPanel">
+                <div id ="InputReg">Регион загрузки</div>
+                <input type="text" size="40">
+            </div>
+        </div>
+        <div id = "UploadFilesPanel" class = "InfoBlock">
+            2. Скачайте шаблон или выберите готовый файл
+        </div>
+        <div id="FilesListPanel" class = "InfoBlock">
+            3. Загрузите данные
+        </div>
     </div>
 
 
